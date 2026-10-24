@@ -14,7 +14,7 @@ on:
       - minor
 env:
   CI: true
-  node: 20.x
+  node: '22.23.4'
 jobs:
   build:
     name: build
